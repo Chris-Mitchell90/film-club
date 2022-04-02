@@ -1,7 +1,6 @@
 'use strict';
 
 require('dotenv').config();
-console.log(process.env)
 const express = require('express');
 const app = express()
 const port = process.env.SERVER_PORT || 3001;
